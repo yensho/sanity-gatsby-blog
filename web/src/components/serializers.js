@@ -6,6 +6,7 @@ const serializers = {
     /* eslint-disable-next-line react/display-name */
     authorReference: ({ node }) => <span>{node.author.name}</span>,
     mainImage: Figure,
+    excerptReference: ({ node }) => <span>{node.excerpt.body}</span>,
   },
 };
 

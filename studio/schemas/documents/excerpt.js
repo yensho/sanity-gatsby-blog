@@ -11,7 +11,7 @@ export default {
       {
         name: "body",
         type: "excerptPortableText",
-        title: "Biography",
+        title: "Body",
       },
     ],
   };
